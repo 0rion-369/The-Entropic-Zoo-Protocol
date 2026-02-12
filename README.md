@@ -18,3 +18,14 @@ This repository presents a conceptual taxonomy of feedback systems operating und
 
 ## Scope and Intent
 This framework provides a structural lens for examining optimization trajectories. It does not assert the inevitability of collapse nor propose specific governance prescriptions.
+
+### Usage: Running the Simulation
+
+The repository includes a Python-based numerical simulation of the Support Contraction inequality ($P > B + V$).
+
+### Prerequisites
+Ensure you have Python 3 installed along with the required libraries:
+```bash
+pip install numpy matplotlib
+ExecutionTo visualize the dynamical regimes (Collapse vs. Stability), run the following command from the root directory:Bashpython models/collapse_simulation.py
+This will generate a plot showing the trajectory of Support Breadth ($B$) under different optimization and entropy parameters.
