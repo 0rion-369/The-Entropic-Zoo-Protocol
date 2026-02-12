@@ -1,47 +1,52 @@
 # Related Work
 
-This framework intersects with multiple research traditions without being reducible to any single one. The following references indicate conceptual proximity rather than direct equivalence.
+This framework intersects with several established traditions without asserting equivalence or priority.
+
+The references below indicate conceptual proximity or motivation rather than direct dependence.
 
 ---
 
 ## Optimization and Convergence
-Research in reinforcement learning and policy optimization examines convergence behavior under repeated updates and reward maximization. Work on policy entropy, exploration–exploitation trade-offs, and mode collapse in generative systems addresses related structural concerns. However, most analyses focus on short- to medium-horizon performance rather than long-term support topology under self-referential feedback.
+
+Literature on reinforcement learning and iterative policy optimization examines system behavior under repeated updates and selection pressure. These analyses often focus on performance or regret minimization over finite horizons rather than long-term structural support topology.
 
 ---
 
-## Mode Collapse and Distributional Narrowing
-In generative modeling, phenomena such as mode collapse in GANs and distributional narrowing in iterative self-training resemble support contraction dynamics. These findings suggest that optimization pressure can reduce effective diversity even when surface-level metrics remain stable. The present framework generalizes this concern beyond specific architectures.
+## Distributional Narrowing and Mode Collapse
+
+Phenomena termed “mode collapse” in generative modeling and distributional narrowing in self-training protocols describe how optimization can reduce effective diversity within a distribution. These observations highlight structural concerns that are analogous to support contraction but within specific model classes.
 
 ---
 
-## Self-Referential Systems and Reflexivity
-Conceptual parallels exist with:
-- **Autopoiesis** in systems theory.
-- **Reflexive systems** in cybernetics.
-- **Recursive self-improvement models** in AI safety literature.
+## Recursive and Reflexive Systems
 
-The Entropic Zoo Protocol focuses specifically on variance flow and support structure within such systems.
+Related conceptual frameworks exist in:
+- Cybernetics (recursive feedback systems)
+- Systems theory (autopoietic systems)
+- Self-improvement models in AI safety discussions
 
----
-
-## Information Theory
-The framework draws structural inspiration from:
-- **Entropy** as a measure of distributional breadth.
-- **Compression** as an indicator of structural redundancy.
-- **Dynamical systems theory** and attractor formation.
-
-It applies these concepts specifically to optimization ecosystems.
+These traditions examine the interplay of system outputs and future inputs in long-term dynamics.
 
 ---
 
-## Model Collapse in Foundation Models
-Recent discussions of "model collapse"—particularly under synthetic self-training—suggest that recursive data generation may narrow effective distributions over time. The Entropic Zoo Protocol provides a generalized structural taxonomy within which such phenomena may be situated.
+## Information Theoretic Constructs
+
+This framework uses structural quantities such as entropy, compressibility, and support breadth as analytical lenses. While not contributing new information-theoretic results, it situates these constructs within ecosystem dynamics of interacting loops.
+
+---
+
+## Exploration–Exploitation and Long-Horizon Behavior
+
+Work in decision processes and reinforcement learning explores the tension between exploration and exploitation. The present framework generalizes these insights toward structural support over extended trajectories.
 
 ---
 
 ## Scope Clarification
-Its contribution lies in:
-- **Structural classification** of optimization species.
-- **Emphasis on support topology** rather than performance metrics.
-- **Separation** of endogenous stochasticity from irreducible variance.
-- **Ecosystem-level analysis** of interacting loops.
+
+This document does not:
+- Claim novelty for each conceptual element
+- Propose new algorithms or measurable proofs
+- Provide a comprehensive literature mapping
+
+It situates the present framework in relation to extant conceptual work in optimization dynamics, recursive systems, and information structure.
+
